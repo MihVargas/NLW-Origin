@@ -30,7 +30,6 @@ img {
 }
 
 /* ************* BASE ************* */
-
 body {
   font: 400 1rem 'DM Sans', sans-serif;
   color: var(--text-color);
@@ -98,7 +97,7 @@ h1 {
 }
 
 nav {
-  height: var(--header-height); /* esse tamanho é responsivel de acordo com padrão definido pelo navegador como o tamanho da página que é de 100%  ou 16px, dessa forma a minha height(altura) será responsíva de acordo com os px de cada dispositivo*/
+  height: var(--header-height); /* esse tamanho é responsivo de acordo com padrão definido pelo navegador, como o tamanho da página que é de 100%  ou 16px, dessa forma a minha height(altura) será responsíva de acordo com os px de cada dispositivo*/
   display: flex;
   align-items: center;
   justify-content: space-between;
